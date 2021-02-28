@@ -1,0 +1,115 @@
+.content h3
+{
+    position: relative;
+    top: 60px;
+    font-weight: 400;
+}
+.content p
+{
+    position: relative;
+    top: 70px;
+
+    color: rgb(80, 80, 80);
+}
+
+.img1
+{
+    position: relative;
+    top: 70px;
+    border-radius: 50%;
+    display: inline;
+    width: 80px;
+}
+
+
+.img2
+{
+    position: relative;
+    left: 360px;
+    bottom: 30px;
+    width: 30px;
+    border: 1px solid white;
+
+}
+
+
+
+
+h5
+{
+    margin-left: 110px;
+}
+h6
+{
+    margin-left: 110px;
+    color: rgb(80, 80, 80);
+
+}
+
+.icons
+{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px ;
+    width: 200px;
+    height: 120px;
+    border: 1px solid gray ; 
+    background: #000;
+    transition: opacity 1s;
+    opacity: 1;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+    display: none;
+    text-align: center;
+}
+i
+{
+    padding-bottom:  10px;
+}
+i:hover
+{
+    opacity: .5;
+}
+.c0
+{
+    position: relative;
+    right: 80px;
+}
+
+.photo
+{
+
+    position: relative;
+    top: 50px;
+    right: 30px;
+}
+
+/*small*/
+@media(max-width:576px)
+{
+    .photo 
+    {
+       position: relative;
+        top:50;
+        
+      
+    }
+}
+@media(max-width:992px)
+{
+    .photo 
+    {
+       position: relative;
+        top:50;
+        
+      
+    }
+    .content .img2 
+    {
+        position: relative;
+        right: 30px;
+    }
+}
